@@ -2,12 +2,12 @@ import {
   ChakraProvider,
   ColorModeScript,
   cookieStorageManager,
-} from '@chakra-ui/react';
+} from '@chakra-ui/react'
 
-import customTheme from '~/lib/styles/theme/index';
+import customTheme from '~/lib/styles/theme/index'
 
 interface ChakraProps {
-  children: React.ReactNode;
+  children: React.ReactNode
 }
 
 export const Chakra = ({ children }: ChakraProps) => {
@@ -24,5 +24,5 @@ export const Chakra = ({ children }: ChakraProps) => {
         {children}
       </ChakraProvider>
     </>
-  );
-};
+  )
+}

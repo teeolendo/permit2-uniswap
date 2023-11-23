@@ -1,4 +1,4 @@
-const APP_NAME = 'nextarter-chakra';
+const APP_NAME = 'nextarter-chakra'
 
 const Meta = () => {
   return (
@@ -15,7 +15,7 @@ const Meta = () => {
 
       <link rel="manifest" href="/manifest.json" />
     </>
-  );
-};
+  )
+}
 
-export default Meta;
+export default Meta

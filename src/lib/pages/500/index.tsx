@@ -7,13 +7,13 @@ import {
   Link as ChakraLink,
   useColorMode,
   Flex,
-} from '@chakra-ui/react';
-import Link from 'next/link';
+} from '@chakra-ui/react'
+import Link from 'next/link'
 
-import MotionBox from '~/lib/components/motion/Box';
+import MotionBox from '~/lib/components/motion/Box'
 
 const Page500 = () => {
-  const { colorMode } = useColorMode();
+  const { colorMode } = useColorMode()
 
   return (
     <Flex minHeight="70vh" direction="column" justifyContent="center">
@@ -55,7 +55,7 @@ const Page500 = () => {
         </Box>
       </Box>
     </Flex>
-  );
-};
+  )
+}
 
-export default Page500;
+export default Page500

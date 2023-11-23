@@ -1,13 +1,13 @@
-import type { Metadata } from 'next';
+import type { Metadata } from 'next'
 
-import Providers from '~/app/providers';
-import Layout from '~/lib/layout';
+import Providers from '~/app/providers'
+import Layout from '~/lib/layout'
 
 type RootLayoutProps = {
-  children: React.ReactNode;
-};
+  children: React.ReactNode
+}
 
-const APP_NAME = 'nextarter-chakra';
+const APP_NAME = 'Permit2 Uniswap Demo'
 
 export const metadata: Metadata = {
   title: { default: APP_NAME, template: '%s | nextarter-chakra' },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     creator: '@sozonome',
     card: 'summary_large_image',
   },
-};
+}
 
 const RootLayout = ({ children }: RootLayoutProps) => {
   return (
@@ -50,7 +50,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
         </Providers>
       </body>
     </html>
-  );
-};
+  )
+}
 
-export default RootLayout;
+export default RootLayout
