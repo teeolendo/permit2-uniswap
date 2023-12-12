@@ -8,7 +8,7 @@ For each token, users have to submit a one-time traditional approval that sets P
 
 [Learn More](https://blog.uniswap.org/permit2-integration-guide)
 
-## Process
+## Stages
 
 1. Ensure the user has approved the canonical ERC-20 for a given chain
 2. Retrieve the current permit status using `AllowanceProvider`. This should return the current nonce, expiry and amount that has been approved.

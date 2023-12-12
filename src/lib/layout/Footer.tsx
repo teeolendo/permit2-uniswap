@@ -10,7 +10,7 @@ const Footer = () => {
           isExternal
           rel="noopener noreferrer"
         >
-          Polygon Labs
+          Tony Olendo
         </Link>
       </Text>
     </Flex>
